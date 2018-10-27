@@ -43,7 +43,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.timKiemButton = new DevExpress.XtraEditors.SimpleButton();
             this.timKiemTextBox = new System.Windows.Forms.TextBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,6 +50,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chitietButton = new DevExpress.XtraEditors.SimpleButton();
+            this.timKiemButton = new DevExpress.XtraEditors.SimpleButton();
             this.guestInforPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ngaySinhDate.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ngaySinhDate.Properties)).BeginInit();
@@ -223,15 +223,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1319, 191);
             this.dataGridView1.TabIndex = 16;
             // 
-            // timKiemButton
-            // 
-            this.timKiemButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("timKiemButton.ImageOptions.Image")));
-            this.timKiemButton.Location = new System.Drawing.Point(1114, 419);
-            this.timKiemButton.Name = "timKiemButton";
-            this.timKiemButton.Size = new System.Drawing.Size(112, 32);
-            this.timKiemButton.TabIndex = 18;
-            this.timKiemButton.Text = "Tìm kiếm";
-            // 
             // timKiemTextBox
             // 
             this.timKiemTextBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -280,6 +271,15 @@
             this.chitietButton.Size = new System.Drawing.Size(212, 32);
             this.chitietButton.TabIndex = 24;
             this.chitietButton.Text = "Xem sản phẩm đã mua";
+            // 
+            // timKiemButton
+            // 
+            this.timKiemButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("timKiemButton.ImageOptions.Image")));
+            this.timKiemButton.Location = new System.Drawing.Point(1114, 419);
+            this.timKiemButton.Name = "timKiemButton";
+            this.timKiemButton.Size = new System.Drawing.Size(112, 32);
+            this.timKiemButton.TabIndex = 18;
+            this.timKiemButton.Text = "Tìm kiếm";
             // 
             // frmKhachHang
             // 
