@@ -46,14 +46,20 @@
             this.repositoryItemPictureEdit8 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.taikhoanButton = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
-            this.sanphamButton = new DevExpress.XtraBars.BarEditItem();
+            this.sptrongkhoButton = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit10 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.barEditItem6 = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit11 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
-            this.hangdienthoaiButton = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit12 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.hdnhapButton = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit13 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+            this.dangnhapButton = new DevExpress.XtraBars.BarEditItem();
+            this.repositoryItemPictureEdit14 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+            this.dangxuatButton = new DevExpress.XtraBars.BarEditItem();
+            this.repositoryItemPictureEdit15 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+            this.dangnhapPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.muabanPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.banhangRibbon = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -62,7 +68,6 @@
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.thongkePage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.repositoryItemImageEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageEdit();
@@ -91,6 +96,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit7)).BeginInit();
@@ -113,15 +120,17 @@
             this.khachhangButton,
             this.nhanvienButton,
             this.taikhoanButton,
-            this.sanphamButton,
+            this.sptrongkhoButton,
             this.barEditItem6,
-            this.hangdienthoaiButton,
-            this.hdnhapButton});
+            this.hdnhapButton,
+            this.dangnhapButton,
+            this.dangxuatButton});
             this.ribbonControl1.ItemsVertAlign = DevExpress.Utils.VertAlignment.Center;
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 27;
+            this.ribbonControl1.MaxItemId = 29;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.dangnhapPage,
             this.muabanPage,
             this.qldlPage,
             this.thongkePage});
@@ -139,8 +148,11 @@
             this.repositoryItemPictureEdit10,
             this.repositoryItemPictureEdit11,
             this.repositoryItemPictureEdit12,
-            this.repositoryItemPictureEdit13});
+            this.repositoryItemPictureEdit13,
+            this.repositoryItemPictureEdit14,
+            this.repositoryItemPictureEdit15});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
+            this.ribbonControl1.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
             this.ribbonControl1.Size = new System.Drawing.Size(1381, 185);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
@@ -266,6 +278,7 @@
             this.taikhoanButton.EditWidth = 70;
             this.taikhoanButton.Id = 22;
             this.taikhoanButton.Name = "taikhoanButton";
+            this.taikhoanButton.ItemPress += new DevExpress.XtraBars.ItemClickEventHandler(this.taikhoanButton_ItemPress);
             // 
             // repositoryItemPictureEdit9
             // 
@@ -274,13 +287,14 @@
             this.repositoryItemPictureEdit9.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.repositoryItemPictureEdit9.ZoomAccelerationFactor = 1D;
             // 
-            // sanphamButton
+            // sptrongkhoButton
             // 
-            this.sanphamButton.Edit = this.repositoryItemPictureEdit10;
-            this.sanphamButton.EditHeight = 100;
-            this.sanphamButton.EditWidth = 70;
-            this.sanphamButton.Id = 23;
-            this.sanphamButton.Name = "sanphamButton";
+            this.sptrongkhoButton.Edit = this.repositoryItemPictureEdit10;
+            this.sptrongkhoButton.EditHeight = 100;
+            this.sptrongkhoButton.EditWidth = 70;
+            this.sptrongkhoButton.Id = 23;
+            this.sptrongkhoButton.Name = "sptrongkhoButton";
+            this.sptrongkhoButton.ItemPress += new DevExpress.XtraBars.ItemClickEventHandler(this.sptrongkhoButton_ItemPress);
             // 
             // repositoryItemPictureEdit10
             // 
@@ -302,14 +316,6 @@
             this.repositoryItemPictureEdit11.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit11.Name = "repositoryItemPictureEdit11";
             this.repositoryItemPictureEdit11.ZoomAccelerationFactor = 1D;
-            // 
-            // hangdienthoaiButton
-            // 
-            this.hangdienthoaiButton.Edit = this.repositoryItemPictureEdit12;
-            this.hangdienthoaiButton.EditHeight = 100;
-            this.hangdienthoaiButton.EditWidth = 100;
-            this.hangdienthoaiButton.Id = 25;
-            this.hangdienthoaiButton.Name = "hangdienthoaiButton";
             // 
             // repositoryItemPictureEdit12
             // 
@@ -333,6 +339,56 @@
             this.repositoryItemPictureEdit13.Name = "repositoryItemPictureEdit13";
             this.repositoryItemPictureEdit13.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.repositoryItemPictureEdit13.ZoomAccelerationFactor = 1D;
+            // 
+            // dangnhapButton
+            // 
+            this.dangnhapButton.Edit = this.repositoryItemPictureEdit14;
+            this.dangnhapButton.EditHeight = 100;
+            this.dangnhapButton.EditWidth = 70;
+            this.dangnhapButton.Id = 27;
+            this.dangnhapButton.Name = "dangnhapButton";
+            // 
+            // repositoryItemPictureEdit14
+            // 
+            this.repositoryItemPictureEdit14.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.repositoryItemPictureEdit14.Name = "repositoryItemPictureEdit14";
+            this.repositoryItemPictureEdit14.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.repositoryItemPictureEdit14.ZoomAccelerationFactor = 1D;
+            // 
+            // dangxuatButton
+            // 
+            this.dangxuatButton.Edit = this.repositoryItemPictureEdit15;
+            this.dangxuatButton.EditHeight = 100;
+            this.dangxuatButton.EditWidth = 70;
+            this.dangxuatButton.Id = 28;
+            this.dangxuatButton.Name = "dangxuatButton";
+            // 
+            // repositoryItemPictureEdit15
+            // 
+            this.repositoryItemPictureEdit15.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.repositoryItemPictureEdit15.Name = "repositoryItemPictureEdit15";
+            this.repositoryItemPictureEdit15.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.repositoryItemPictureEdit15.ZoomAccelerationFactor = 1D;
+            // 
+            // dangnhapPage
+            // 
+            this.dangnhapPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup9,
+            this.ribbonPageGroup10});
+            this.dangnhapPage.Name = "dangnhapPage";
+            this.dangnhapPage.Text = "Đăng nhập";
+            // 
+            // ribbonPageGroup9
+            // 
+            this.ribbonPageGroup9.ItemLinks.Add(this.dangnhapButton);
+            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
+            this.ribbonPageGroup9.Text = "Đăng nhập";
+            // 
+            // ribbonPageGroup10
+            // 
+            this.ribbonPageGroup10.ItemLinks.Add(this.dangxuatButton);
+            this.ribbonPageGroup10.Name = "ribbonPageGroup10";
+            this.ribbonPageGroup10.Text = "Đăng xuất";
             // 
             // muabanPage
             // 
@@ -368,8 +424,7 @@
             this.qldlPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup3,
             this.ribbonPageGroup7,
-            this.ribbonPageGroup2,
-            this.ribbonPageGroup8});
+            this.ribbonPageGroup2});
             this.qldlPage.Name = "qldlPage";
             this.qldlPage.Text = "Quản lí dữ liệu";
             // 
@@ -387,15 +442,9 @@
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.sanphamButton);
+            this.ribbonPageGroup2.ItemLinks.Add(this.sptrongkhoButton);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "SP trong kho";
-            // 
-            // ribbonPageGroup8
-            // 
-            this.ribbonPageGroup8.ItemLinks.Add(this.hangdienthoaiButton);
-            this.ribbonPageGroup8.Name = "ribbonPageGroup8";
-            this.ribbonPageGroup8.Text = "Hãng điện thoại";
             // 
             // thongkePage
             // 
@@ -513,6 +562,8 @@
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
             this.StatusBar = this.ribbonStatusBar1;
@@ -532,6 +583,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit7)).EndInit();
@@ -582,16 +635,21 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit8;
         private DevExpress.XtraBars.BarEditItem taikhoanButton;
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit9;
-        private DevExpress.XtraBars.BarEditItem sanphamButton;
+        private DevExpress.XtraBars.BarEditItem sptrongkhoButton;
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit10;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.BarEditItem barEditItem6;
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit11;
-        private DevExpress.XtraBars.BarEditItem hangdienthoaiButton;
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit12;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup8;
         private DevExpress.XtraBars.BarEditItem hdnhapButton;
         private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit13;
+        private DevExpress.XtraBars.BarEditItem dangnhapButton;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit14;
+        private DevExpress.XtraBars.BarEditItem dangxuatButton;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit15;
+        private DevExpress.XtraBars.Ribbon.RibbonPage dangnhapPage;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
     }
 }
 

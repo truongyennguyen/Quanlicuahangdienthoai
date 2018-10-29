@@ -71,11 +71,17 @@
     <Compile Include="frmBanHang.Designer.cs">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHangDienThoai.cs">
+    <Compile Include="frmChiTietHoaDonBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHangDienThoai.Designer.cs">
-      <DependentUpon>frmHangDienThoai.cs</DependentUpon>
+    <Compile Include="frmChiTietHoaDonBan.Designer.cs">
+      <DependentUpon>frmChiTietHoaDonBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietHoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietHoaDonNhap.Designer.cs">
+      <DependentUpon>frmChiTietHoaDonNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHoaDonBan.cs">
       <SubType>Form</SubType>
@@ -107,6 +113,12 @@
     <Compile Include="frmNhapHang.Designer.cs">
       <DependentUpon>frmNhapHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSanPhamDaMua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSanPhamDaMua.Designer.cs">
+      <DependentUpon>frmSanPhamDaMua.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSanPhamTrongKho.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,8 +139,11 @@
     <EmbeddedResource Include="frmBanHang.resx">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHangDienThoai.resx">
-      <DependentUpon>frmHangDienThoai.cs</DependentUpon>
+    <EmbeddedResource Include="frmChiTietHoaDonBan.resx">
+      <DependentUpon>frmChiTietHoaDonBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietHoaDonNhap.resx">
+      <DependentUpon>frmChiTietHoaDonNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHoaDonBan.resx">
       <DependentUpon>frmHoaDonBan.cs</DependentUpon>
@@ -144,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhapHang.resx">
       <DependentUpon>frmNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSanPhamDaMua.resx">
+      <DependentUpon>frmSanPhamDaMua.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSanPhamTrongKho.resx">
       <DependentUpon>frmSanPhamTrongKho.cs</DependentUpon>
@@ -228,6 +246,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\trolley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -107,6 +107,7 @@
             this.chitietButton.Size = new System.Drawing.Size(194, 32);
             this.chitietButton.TabIndex = 19;
             this.chitietButton.Text = "Xem chi tiết hóa đơn";
+            this.chitietButton.Click += new System.EventHandler(this.chitietButton_Click);
             // 
             // frmHoaDonNhap
             // 

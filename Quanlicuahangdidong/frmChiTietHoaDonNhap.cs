@@ -11,9 +11,9 @@ using DevExpress.XtraEditors;
 
 namespace Quanlicuahangdidong
 {
-    public partial class frmHangDienThoai : DevExpress.XtraEditors.XtraForm
+    public partial class frmChiTietHoaDonNhap : DevExpress.XtraEditors.XtraForm
     {
-        public frmHangDienThoai()
+        public frmChiTietHoaDonNhap()
         {
             InitializeComponent();
         }

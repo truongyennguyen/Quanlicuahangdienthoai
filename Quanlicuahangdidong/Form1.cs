@@ -57,9 +57,10 @@ namespace Quanlicuahangdidong
             hdbanButton.EditValue = Quanlicuahangdidong.Properties.Resources.bill;
             nhanvienButton.EditValue = Quanlicuahangdidong.Properties.Resources.employee;
             taikhoanButton.EditValue = Quanlicuahangdidong.Properties.Resources.account;
-            sanphamButton.EditValue = Quanlicuahangdidong.Properties.Resources.product;
-            hangdienthoaiButton.EditValue = Quanlicuahangdidong.Properties.Resources.phone;
+            sptrongkhoButton.EditValue = Quanlicuahangdidong.Properties.Resources.product;
             hdnhapButton.EditValue = Quanlicuahangdidong.Properties.Resources.bill_1;
+            dangnhapButton.EditValue = Quanlicuahangdidong.Properties.Resources.login;
+            dangxuatButton.EditValue = Quanlicuahangdidong.Properties.Resources.logout;
 
 
             // disable popup menu when right click
@@ -68,11 +69,13 @@ namespace Quanlicuahangdidong
             nhaphangButton.CanOpenEdit = false;
             hdbanButton.CanOpenEdit = false;
             khachhangButton.CanOpenEdit = false;
-            nhanvienButton.CanOpenEdit = false;
-            sanphamButton.CanOpenEdit = false;
+            sptrongkhoButton.CanOpenEdit = false;
             taikhoanButton.CanOpenEdit = false;
-            hangdienthoaiButton.CanOpenEdit = false;
             hdnhapButton.CanOpenEdit = false;
+            dangnhapButton.CanOpenEdit = false;
+            dangxuatButton.CanOpenEdit = false;
+
+            dangxuatButton.Enabled = false;
         }
 
         private void banhangButton_ItemPress(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -111,5 +114,16 @@ namespace Quanlicuahangdidong
             showChildForm(frmKH);
         }
 
+        private void sptrongkhoButton_ItemPress(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmSanPhamTrongKho frmSPTK = new frmSanPhamTrongKho();
+            showChildForm(frmSPTK);
+        }
+
+        private void taikhoanButton_ItemPress(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmTaiKhoan frmTK = new frmTaiKhoan();
+            showChildForm(frmTK);
+        }
     }
 }

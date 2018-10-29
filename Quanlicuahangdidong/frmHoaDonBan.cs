@@ -17,5 +17,11 @@ namespace Quanlicuahangdidong
         {
             InitializeComponent();
         }
+
+        private void chitietButton_Click(object sender, EventArgs e)
+        {
+            frmChiTietHoaDonBan CTHDB = new frmChiTietHoaDonBan();
+            CTHDB.ShowDialog();
+        }
     }
 }

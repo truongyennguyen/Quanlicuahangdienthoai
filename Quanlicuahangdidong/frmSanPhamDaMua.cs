@@ -11,17 +11,11 @@ using DevExpress.XtraEditors;
 
 namespace Quanlicuahangdidong
 {
-    public partial class frmHoaDonNhap : DevExpress.XtraEditors.XtraForm
+    public partial class frmSanPhamDaMua : DevExpress.XtraEditors.XtraForm
     {
-        public frmHoaDonNhap()
+        public frmSanPhamDaMua()
         {
             InitializeComponent();
-        }
-
-        private void chitietButton_Click(object sender, EventArgs e)
-        {
-            frmChiTietHoaDonNhap CTHDN = new frmChiTietHoaDonNhap();
-            CTHDN.ShowDialog();
         }
     }
 }

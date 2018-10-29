@@ -233,7 +233,7 @@
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Tên khách hàng";
+            this.Column1.HeaderText = "Mã khách hàng";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             // 
@@ -271,6 +271,7 @@
             this.chitietButton.Size = new System.Drawing.Size(212, 32);
             this.chitietButton.TabIndex = 24;
             this.chitietButton.Text = "Xem sản phẩm đã mua";
+            this.chitietButton.Click += new System.EventHandler(this.chitietButton_Click);
             // 
             // timKiemButton
             // 
@@ -322,13 +323,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private DevExpress.XtraEditors.SimpleButton timKiemButton;
+        private System.Windows.Forms.TextBox timKiemTextBox;
+        private DevExpress.XtraEditors.SimpleButton chitietButton;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private DevExpress.XtraEditors.SimpleButton timKiemButton;
-        private System.Windows.Forms.TextBox timKiemTextBox;
-        private DevExpress.XtraEditors.SimpleButton chitietButton;
     }
 }
