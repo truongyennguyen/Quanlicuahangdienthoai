@@ -125,5 +125,11 @@ namespace Quanlicuahangdidong
             frmTaiKhoan frmTK = new frmTaiKhoan();
             showChildForm(frmTK);
         }
+
+        private void dangnhapButton_ItemPress(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmDangNhap DN = new frmDangNhap();
+            DN.ShowDialog();
+        }
     }
 }

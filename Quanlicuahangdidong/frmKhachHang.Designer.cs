@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKhachHang));
             this.guestInforPanel = new System.Windows.Forms.Panel();
             this.nuCheckBox = new System.Windows.Forms.CheckBox();
@@ -43,12 +44,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.timKiemTextBox = new System.Windows.Forms.TextBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.timKiemTextBox = new System.Windows.Forms.TextBox();
             this.chitietButton = new DevExpress.XtraEditors.SimpleButton();
             this.timKiemButton = new DevExpress.XtraEditors.SimpleButton();
             this.guestInforPanel.SuspendLayout();
@@ -216,20 +217,20 @@
             this.Column3,
             this.Column4,
             this.Column5});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 7.8F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.Location = new System.Drawing.Point(251, 504);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1319, 191);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // timKiemTextBox
-            // 
-            this.timKiemTextBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timKiemTextBox.Location = new System.Drawing.Point(691, 419);
-            this.timKiemTextBox.Name = "timKiemTextBox";
-            this.timKiemTextBox.Size = new System.Drawing.Size(391, 32);
-            this.timKiemTextBox.TabIndex = 17;
             // 
             // Column1
             // 
@@ -260,6 +261,14 @@
             this.Column5.HeaderText = "Số điện thoại";
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
+            // 
+            // timKiemTextBox
+            // 
+            this.timKiemTextBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timKiemTextBox.Location = new System.Drawing.Point(691, 419);
+            this.timKiemTextBox.Name = "timKiemTextBox";
+            this.timKiemTextBox.Size = new System.Drawing.Size(391, 32);
+            this.timKiemTextBox.TabIndex = 17;
             // 
             // chitietButton
             // 

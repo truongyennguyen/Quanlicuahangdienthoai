@@ -50,7 +50,6 @@
             this.repositoryItemPictureEdit10 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.barEditItem6 = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit11 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
-            this.repositoryItemPictureEdit12 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.hdnhapButton = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemPictureEdit13 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.dangnhapButton = new DevExpress.XtraBars.BarEditItem();
@@ -73,6 +72,7 @@
             this.repositoryItemImageEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageEdit();
             this.repositoryItemPictureEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.repositoryItemPictureEdit7 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+            this.repositoryItemPictureEdit12 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
@@ -94,13 +94,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,18 +154,16 @@
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl1.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(1381, 185);
+            this.ribbonControl1.Size = new System.Drawing.Size(1381, 180);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
             // barAndDockingController1
             // 
-            this.barAndDockingController1.LookAndFeel.SkinName = "Office 2016 Dark";
             this.barAndDockingController1.PropertiesBar.AllowLinkLighting = false;
-            this.barAndDockingController1.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
-            this.barAndDockingController1.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);
             this.barAndDockingController1.PropertiesBar.LargeIcons = true;
+            this.barAndDockingController1.PropertiesDocking.ViewStyle = DevExpress.XtraBars.Docking2010.Views.DockingViewStyle.Classic;
             // 
             // barEditItem1
             // 
@@ -179,7 +177,6 @@
             this.repositoryItemPictureEdit1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit1.Name = "repositoryItemPictureEdit1";
             this.repositoryItemPictureEdit1.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit1.ZoomAccelerationFactor = 1D;
             // 
             // barButtonItem2
             // 
@@ -205,7 +202,6 @@
             this.repositoryItemPictureEdit2.Name = "repositoryItemPictureEdit2";
             this.repositoryItemPictureEdit2.PictureStoreMode = DevExpress.XtraEditors.Controls.PictureStoreMode.Image;
             this.repositoryItemPictureEdit2.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit2.ZoomAccelerationFactor = 1D;
             // 
             // nhaphangButton
             // 
@@ -221,7 +217,6 @@
             this.repositoryItemPictureEdit4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit4.Name = "repositoryItemPictureEdit4";
             this.repositoryItemPictureEdit4.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit4.ZoomAccelerationFactor = 1D;
             // 
             // hdbanButton
             // 
@@ -237,7 +232,6 @@
             this.repositoryItemPictureEdit5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit5.Name = "repositoryItemPictureEdit5";
             this.repositoryItemPictureEdit5.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit5.ZoomAccelerationFactor = 1D;
             // 
             // khachhangButton
             // 
@@ -253,7 +247,6 @@
             this.repositoryItemPictureEdit6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit6.Name = "repositoryItemPictureEdit6";
             this.repositoryItemPictureEdit6.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit6.ZoomAccelerationFactor = 1D;
             // 
             // nhanvienButton
             // 
@@ -269,7 +262,6 @@
             this.repositoryItemPictureEdit8.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit8.Name = "repositoryItemPictureEdit8";
             this.repositoryItemPictureEdit8.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit8.ZoomAccelerationFactor = 1D;
             // 
             // taikhoanButton
             // 
@@ -285,7 +277,6 @@
             this.repositoryItemPictureEdit9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit9.Name = "repositoryItemPictureEdit9";
             this.repositoryItemPictureEdit9.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit9.ZoomAccelerationFactor = 1D;
             // 
             // sptrongkhoButton
             // 
@@ -301,7 +292,6 @@
             this.repositoryItemPictureEdit10.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit10.Name = "repositoryItemPictureEdit10";
             this.repositoryItemPictureEdit10.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit10.ZoomAccelerationFactor = 1D;
             // 
             // barEditItem6
             // 
@@ -315,14 +305,6 @@
             // 
             this.repositoryItemPictureEdit11.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit11.Name = "repositoryItemPictureEdit11";
-            this.repositoryItemPictureEdit11.ZoomAccelerationFactor = 1D;
-            // 
-            // repositoryItemPictureEdit12
-            // 
-            this.repositoryItemPictureEdit12.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.repositoryItemPictureEdit12.Name = "repositoryItemPictureEdit12";
-            this.repositoryItemPictureEdit12.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit12.ZoomAccelerationFactor = 1D;
             // 
             // hdnhapButton
             // 
@@ -338,7 +320,6 @@
             this.repositoryItemPictureEdit13.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit13.Name = "repositoryItemPictureEdit13";
             this.repositoryItemPictureEdit13.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit13.ZoomAccelerationFactor = 1D;
             // 
             // dangnhapButton
             // 
@@ -347,13 +328,13 @@
             this.dangnhapButton.EditWidth = 70;
             this.dangnhapButton.Id = 27;
             this.dangnhapButton.Name = "dangnhapButton";
+            this.dangnhapButton.ItemPress += new DevExpress.XtraBars.ItemClickEventHandler(this.dangnhapButton_ItemPress);
             // 
             // repositoryItemPictureEdit14
             // 
             this.repositoryItemPictureEdit14.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit14.Name = "repositoryItemPictureEdit14";
             this.repositoryItemPictureEdit14.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit14.ZoomAccelerationFactor = 1D;
             // 
             // dangxuatButton
             // 
@@ -368,7 +349,6 @@
             this.repositoryItemPictureEdit15.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit15.Name = "repositoryItemPictureEdit15";
             this.repositoryItemPictureEdit15.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit15.ZoomAccelerationFactor = 1D;
             // 
             // dangnhapPage
             // 
@@ -470,20 +450,24 @@
             // 
             this.repositoryItemPictureEdit3.Name = "repositoryItemPictureEdit3";
             this.repositoryItemPictureEdit3.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.repositoryItemPictureEdit3.ZoomAccelerationFactor = 1D;
             // 
             // repositoryItemPictureEdit7
             // 
             this.repositoryItemPictureEdit7.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.repositoryItemPictureEdit7.Name = "repositoryItemPictureEdit7";
-            this.repositoryItemPictureEdit7.ZoomAccelerationFactor = 1D;
+            // 
+            // repositoryItemPictureEdit12
+            // 
+            this.repositoryItemPictureEdit12.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.repositoryItemPictureEdit12.Name = "repositoryItemPictureEdit12";
+            this.repositoryItemPictureEdit12.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 711);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 712);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1381, 28);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1381, 27);
             // 
             // ribbonPage2
             // 
@@ -581,13 +565,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
